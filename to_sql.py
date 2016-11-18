@@ -38,7 +38,7 @@ types = [
 	'transportation_line_grading'
 ]
 
-cmd='/Users/matthew.le/repositories/geojson2postgres/bin/geojson2postgres'
+cmd='geojson2postgres'
 
 script = open('script.sql', 'w')
 
