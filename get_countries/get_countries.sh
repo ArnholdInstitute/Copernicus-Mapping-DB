@@ -10,4 +10,4 @@ if [ ! -f ne_50m_admin_0_countries.shp ]; then
 	unzip countries.zip
 fi
 
-shp2pgsql -s 4326 -I -D -d ne_50m_admin_0_countries.shp | psql copernicus
+shp2pgsql -s 4326 -D -I -d ne_50m_admin_0_countries.shp countries | psql copernicus
